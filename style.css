@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+img{
+    max-width: 100%;
+    padding: .2rem;
+}
+.block{
+    display: block;
+    margin: auto;
+}
+
+.background {
+    
+    background: #121214 url(./img/Fundo.jpg) no-repeat top center / contain;
+}
+main{
+    max-width: 769px;
+    margin: 0 auto; 
+}
+header{
+    padding: 60px 0 60px 0;
+}
+
+.centro{
+    display: grid;
+    gap: 60px;  
+}
+h1,p,h2{
+    font-family:  'Inter', sans-serif;;
+    padding: .4rem;
+    text-align: left;
+    
+}
+p{
+    color: #A1A1AA;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+}
+h1,h2{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+    
+.container{
+    background-color: #2A2634;
+    padding: 20px 80px;
+    border-radius: 10px; 
+}
+.borda {
+    background-image: linear-gradient(45deg,#9572fc,hsl(159, 77%, 58%),#E2D45C);
+    padding-top: 4px;
+    border-radius: 15px 15px 20px 20px;
+}
+.container p {
+    padding-bottom: 20px;
+}
+@media (max-width:900px) {
+    .centro{
+        width:840px;
+
+    }
+    .background{
+        width: 890px;
+    }
+    .tamanho{
+        padding: 14px 40px;
+        margin: 14px 0;
+        border-top: 6px solid;
+    }
+    h1,p,h2{
+        
+        padding: .6rem;
+        text-align: left;
+        line-height: 20px;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    h1,h2{
+        font-size: 1.7rem;
+    }
+}
+@media (max-width:420px){
+    .background{
+        height: 1150px;
+        background-image: linear-gradient(transparent 70%,#151418 ,#121214), url(img/Fundo.jpg);
+    }
+}
