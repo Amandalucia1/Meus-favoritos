@@ -61,35 +61,3 @@ h1,h2{
 .container p {
     padding-bottom: 20px;
 }
-@media (max-width:900px) {
-    .centro{
-        width:840px;
-
-    }
-    .background{
-        width: 890px;
-    }
-    .tamanho{
-        padding: 14px 40px;
-        margin: 14px 0;
-        border-top: 6px solid;
-    }
-    h1,p,h2{
-        
-        padding: .6rem;
-        text-align: left;
-        line-height: 20px;
-    }
-    p{
-        font-size: 1.2rem;
-    }
-    h1,h2{
-        font-size: 1.7rem;
-    }
-}
-@media (max-width:420px){
-    .background{
-        height: 1150px;
-        background-image: linear-gradient(transparent 70%,#151418 ,#121214), url(img/Fundo.jpg);
-    }
-}
